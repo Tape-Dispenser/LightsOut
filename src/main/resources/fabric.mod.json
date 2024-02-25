@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "lightsout",
+  "version": "${version}",
+
+  "name": "Lights Out",
+  "description": "Remove light emissions from redstone components",
+  "authors": [
+    "Mod Developer\t:\tTape"
+
+  ],
+  "contact": {
+    "discord": "tape_os",
+    "sources": "https://github.com/Tape-Dispenser/Immersive-Music-Mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/LightsOut/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.tape.LightsOut.main"
+    ]
+  },
+  "mixins": [
+    "LightsOut.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric-api": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
