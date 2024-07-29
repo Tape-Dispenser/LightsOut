@@ -11,7 +11,7 @@
   ],
   "contact": {
     "discord": "tape_os",
-    "sources": "https://github.com/Tape-Dispenser/Immersive-Music-Mod"
+    "sources": "https://github.com/Tape-Dispenser/LightsOut"
   },
 
   "license": "CC0-1.0",
@@ -29,11 +29,8 @@
 
   "depends": {
     "fabricloader": ">=0.14.21",
-    "fabric-api": "*",
     "minecraft": "~1.20",
     "java": ">=17"
   },
-  "suggests": {
-    "another-mod": "*"
-  }
+  "suggests": {}
 }

@@ -10,8 +10,6 @@ import org.spongepowered.asm.mixin.injection.Slice;
 
 import java.util.function.ToIntFunction;
 
-import static net.minecraft.block.Blocks.createLightLevelFromLitBlockState;
-
 @Mixin(Blocks.class)
 public class RedstoneTorchMixin {
 	@ModifyArg(method = "<clinit>",
